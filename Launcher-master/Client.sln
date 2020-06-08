@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmuLib", "EmuLib\EmuLib.csproj", "{EF53584C-BFC2-42D6-9D81-97745F480438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{4AF372E6-FAC5-4D96-B833-7A26B43C037B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF53584C-BFC2-42D6-9D81-97745F480438} = {EF53584C-BFC2-42D6-9D81-97745F480438}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF53584C-BFC2-42D6-9D81-97745F480438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF53584C-BFC2-42D6-9D81-97745F480438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF53584C-BFC2-42D6-9D81-97745F480438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF53584C-BFC2-42D6-9D81-97745F480438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF372E6-FAC5-4D96-B833-7A26B43C037B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF372E6-FAC5-4D96-B833-7A26B43C037B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF372E6-FAC5-4D96-B833-7A26B43C037B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF372E6-FAC5-4D96-B833-7A26B43C037B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725855B3-A306-496E-9405-1478EF6C6436}
+	EndGlobalSection
+EndGlobal
